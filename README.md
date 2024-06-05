@@ -1,4 +1,4 @@
-# ImageProcessing_MotionTransfer_Project
+# CSE691 Image and Processing Motion TransferProject
 NN, CycelGan, Pix2Pix and Everybody Dance Now for motion transfer.
 
 
