@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--dataset", "edn_1000",
+                "--n_epochs", "50",
+                "--n_epochs_decay", "50",
+                "--target_name", "subject1",
+                "--model", "pix2pix",
+                "--netG", "unet_128",
+                "--gpu_ids", "0,1,2,3"
+            ]
+        }
+    ]
+}
